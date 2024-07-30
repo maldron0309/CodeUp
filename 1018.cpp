@@ -1,10 +1,12 @@
 #include <iostream>
 
-int main()
+int main() 
 {
-	int h, m = 0;
-	scanf("%d:%d", &h, &m);
-	printf("%d:%d", h, m);
+    int h, m = 0;
+    char c;
 
-	return 0;
+    std::cin >> h >> c >> m;
+    std::cout << h << c << m;
+
+    return 0;
 }
