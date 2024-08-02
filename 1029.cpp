@@ -3,7 +3,7 @@
 
 int main() 
 {
-    double d{ 0 };
+    double d{};
     std::cin >> d;
     std::cout << std::fixed << std::setprecision(11) << d;
 

@@ -2,8 +2,8 @@
 
 int main() 
 {
-    int h, m = 0;
-    char c;
+    int h{}, m{};
+    char c{};
 
     std::cin >> h >> c >> m;
     std::cout << h << c << m;

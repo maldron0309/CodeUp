@@ -2,7 +2,7 @@
 
 int main() 
 {
-    char data[51] = "";
+    char data[51] {};
     std::cin >> data;
     std::cout << data;
 

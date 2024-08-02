@@ -4,7 +4,7 @@
 int main() 
 {
     
-    std::string input;
+    std::string input{};
     std::cin >> input;
 
     int pos = input.find('.');

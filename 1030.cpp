@@ -2,7 +2,7 @@
 
 int main()
 {
-    long long int n = 0;
+    long long int n{};
     std::cin >> n;
     std::cout << n;
 

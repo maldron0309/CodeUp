@@ -1,10 +1,10 @@
 #include <iostream>
 
-int main() 
+int main()
 {
-    unsigned int n{};
+    int n{};
     std::cin >> n;
-    std::cout << n;
+    std::cout << std::hex << n;
 
     return 0;
 }

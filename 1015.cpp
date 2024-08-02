@@ -3,7 +3,7 @@
 
 int main()
 {
-	float f = 0;
+	float f{};
 	std::cin >> f;
 	std::cout << std::fixed << std::setprecision(2) << f;
 

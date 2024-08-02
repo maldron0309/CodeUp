@@ -3,7 +3,7 @@
 int main() 
 {
     
-    std::string word;
+    std::string word{};
     std::cin >> word;
     
     for (char ch : word)

@@ -2,7 +2,7 @@
 
 int main() 
 {
-    int h, m, s = 0;
+    int h{}, m{}, s{};
     char colon;
     
     std::cin >> h >> colon >> m >> colon >> s;
